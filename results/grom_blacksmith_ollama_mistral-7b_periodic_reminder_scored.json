@@ -1,0 +1,116 @@
+{
+  "source_file": "logs\\grom_blacksmith_ollama_mistral-7b_periodic_reminder.json",
+  "character": "grom_blacksmith",
+  "provider": "ollama",
+  "model_name": "mistral:7b",
+  "strategy": "periodic_reminder",
+  "per_turn": [
+    {
+      "turn_index": 0,
+      "category": "neutral",
+      "num_contradictions": 6,
+      "worst_score": 0.9389258027076721
+    },
+    {
+      "turn_index": 1,
+      "category": "neutral",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 2,
+      "category": "neutral",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 3,
+      "category": "neutral",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 4,
+      "category": "contradiction_bait",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 5,
+      "category": "contradiction_bait",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 6,
+      "category": "contradiction_bait",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 7,
+      "category": "off_topic",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 8,
+      "category": "off_topic",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 9,
+      "category": "off_topic",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 10,
+      "category": "meta_break",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 11,
+      "category": "meta_break",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 12,
+      "category": "meta_break",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 13,
+      "category": "neutral",
+      "num_contradictions": 0,
+      "worst_score": 0.0
+    },
+    {
+      "turn_index": 14,
+      "category": "neutral",
+      "num_contradictions": 5,
+      "worst_score": 0.874823272228241
+    }
+  ],
+  "drift_by_window": [
+    {
+      "window_start": 0,
+      "window_end": 4,
+      "contradiction_rate": 1.2
+    },
+    {
+      "window_start": 5,
+      "window_end": 9,
+      "contradiction_rate": 0.0
+    },
+    {
+      "window_start": 10,
+      "window_end": 14,
+      "contradiction_rate": 1.0
+    }
+  ]
+}
