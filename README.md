@@ -81,4 +81,4 @@ results/                         # scored result, summary.csv, and plots
 - **Backstory detail matter the most.** Character with detailed backstory (Lyra) had almost zero contradiction in most model, but character with minimal backstory (Grom) had the most contradiction, going up to 1.8 per turn.
 - **Reminder strategy not always helpful.** It clearly helping the bigger model (mistral:7b), but for smallest model (phi3:3.8b) it actually made thing worse for two of the three character.
 
-Full explanation and analysis is in the project report.pdf.
+Full explanation and analysis is in the  Report.pdf.
